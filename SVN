@@ -1,0 +1,13 @@
+SVN to git lab migration:
+
+Information we have:
+https://gitlab.core-services.leaseplan.systems/help/user/project/import/svn.md
+
+blockers:
+1. Central git lab repository access
+
+Todo:
+1. read the above document and consult for any doubts
+2. for few days both SVN and git should be mirror images
+
+
