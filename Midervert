@@ -1,0 +1,25 @@
+Midervert application deployment to cloud:
+
+Information we have:
+
+1.https://lpatoknos1001.emea.leaseplancorp.net:9443/svn/
+
+
+2.Steps to run ant build in cmd
+------------------------------SET ANT_HOME=D:\Users\balaj\Downloads\apache-ant-1.10.12
+set PATH=%PATH%;D:\Users\balaj\Downloads\apache-ant-1.10.12\bincd D:\Users\balaj\eclipse-workspace\LPAT_Miwe\build
+ant -d genTest
+
+
+Deck Link: https://teams.microsoft.com/l/file/DC6008BF-9740-452E-99AE-3811C145A7FA?tenantId=fbe05639-1dac-4eec-bcfb-db00743d3e24&fileType=pptx&objectUrl=https%3A%2F%2Flpportal.sharepoint.com%2Fteams%2FLeasePlanApplications%2FShared%20Documents%2FEntity%20Applications%2F11%20-%20LPAT%2F07%20-%20Minderwertgutachten%2F04%20-%20AO%20Workshop%20Documents%2FMinderwertgutachten%20Migration%20AO%20Workshop.pptx&baseUrl=https%3A%2F%2Flpportal.sharepoint.com%2Fteams%2FLeasePlanApplications&serviceName=teams&threadId=19:030e0b565c7f4680901581dcbc18a73b@thread.tacv2&groupId=7414d155-e8d0-4edd-b331-ec599ee95a71
+
+
+blocker:
+1. Java, Ant versions
+2. aws access for this application. 
+
+Todo:
+1. use the above script and try to build the project using java 8 and ant stable version
+
+
+
